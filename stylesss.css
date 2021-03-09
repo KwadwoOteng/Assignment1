@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  width: 100vw;
+  font-size: 10px;
+  /* background-color: rgb(189, 134, 94); */
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  width: 10%;
+  height: 0.2rem;
+  background-color: rgb(165, 103, 22);
+  margin: 1rem;
+  margin-left: 45%;
+}
+header {
+  background-color: white;
+  font-size: 1.2rem;
+  width: 98vw;
+  margin: 1.5rem;
+  margin-bottom: 0;
+}
+.home {
+  background-color: royalblue;
+  height: 100%;
+  margin-left: 3rem;
+  text-align: center;
+}
+.jane {
+  padding-top: 2rem;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  text-align: justify;
+}
+.offer {
+  font-size: 40px;
+  font-style: italic;
+  padding-top: 1.5rem;
+  
+}
+.story {
+  font-size: 30px;
+  margin-left: 40%;
+  font-style: italic;
+  padding-top: 1.5rem;
+}
+.first-p {
+  font-size: 1.2rem;
+  margin: 1.2rem;
+}
+.second-p {
+  font-size: 1.2rem;
+  margin: 1.2rem;
+}
+.third-p {
+  font-size: 1.2rem;
+  margin: 1.2rem;
+}
+.menu {
+  font-size: 30px;
+  margin: 1.2rem;
+  font-style: italic;
+}
+.baquette {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+.wheat-bread {
+  font-size: 1rem;
+  margin: 0.2rem;
+}
+.eye-bread {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+.croissant {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  width: 96vw;
+  padding-bottom: 6rem;
+  text-align: center;
+  font-size: 20px;
+  text-align: justify;
+}
+.breakfast {
+  background-image: url(./monika-grabkowska-z5bPsP916QA-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 300px;
+  margin: 1.5rem;
+  padding-top: 14rem;
+  padding-left: 5rem;
+}
+.lunch {
+  background-image: url(./toa-heftiba-raA5hctJ_eo-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 300px;
+  margin: 1.5rem;
+  padding-top: 14rem;
+  padding-left: 5rem;
+}
+.seasonal {
+  background-image: url(./abhishek-hajare-kkrXVKK-jhg-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 300px;
+  margin: 1.5rem;
+  padding-top: 14rem;
+  padding-left: 5rem;
+}
+.div1 {
+  background-color: royalblue;
+  width: 15%;
+  margin-left: 5rem;
+}
+.div2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  padding: 1.2rem;
+}
+.head-div {
+  display: flex;
+}
+.list1 {
+  display: flex;
+  width: 80%;
+  text-decoration: none;
+  justify-content: space-evenly;
+}
+.section1 {
+  background-color: white;
+}
+.div3 {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.div4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
+}
+
+.section3 {
+  background-color: wheat;
+  width: 100vw;
+  margin: 0;
+  padding-bottom: 0;
+  height: 100vh;
+}
+.hommie {
+  background-image: url(./angelo-pantazis-2-U0A2tNYhM-unsplash.jpg);
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  transform: rotateX(15);
+  width: 25%;
+  height: 300px;
+  margin: 1.5rem;
+  padding-top: 8rem;
+  padding-left: 3rem;
+}
+.original {
+  background-image: url(./maddi-bazzocco-gaqfzS7YLrc-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  transform: rotateX(15);
+  width: 25%;
+  height: 300px;
+  margin: 1.5rem;
+  padding-top: 8rem;
+  padding-left: 3rem;
+}
+.delicious {
+  background-image: url(./alice-pasqual--FyA5fhIPGI-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  transform: rotateX(15);
+  width: 25%;
+  height: 300px;
+  margin: 1.5rem;
+  padding-top: 8rem;
+  padding-left: 3rem;
+}
+.section2 {
+  background-color: royalblue;
+  display: flex;
+  width: 100vw;
+  height: 300px;
+  justify-content: space-evenly;
+}
+.div5 {
+  width: 60vw;
+  padding-top: 1.5rem;
+}
+.div6 {
+  width: 40vw;
+  margin: 0%;
+  height: 300px;
+}
+.div7 {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 1.1rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  font-style: italic;
+}
+.section4 {
+  background-color: white;
+  margin: 0;
+  padding: 1.2rem;
+}
+.div9 {
+  text-decoration: none;
+  text-align: center;
+}
+.div10 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 94vw;
+  height: 50vh;
+  text-align: center;
+  padding-bottom: 0;
+}
+.div9 {
+  text-align: center;
+}
+.ourbread {
+  font-size: 30px;
+  padding-top: 1.5rem;
+  padding-bottom: 0;
+  font-style: italic;
+}
+.more {
+  margin-left: 40%;
+  width: 300px;
+  height: 35px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.more-button {
+  width: 200px;
+  height: 30px;
+}
+.section5 {
+  display: flex;
+  width: 100vw;
+}
+.div11 {
+  width: 50%;
+  height: 50%;
+}
+.div12 {
+  text-align: center;
+  font-style: italic;
+  padding: 1.2rem;
+  font-size: 15px;
+}
+.div15 {
+  justify-content: center;
+  width: 70vw;
+  background-color: silver;
+}
+.last-p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.email-input {
+  justify-content: center;
+  margin: 1.2rem;
+  margin-right: 0;
+  margin-left: 15rem;
+  padding: 1.2rem;
+  border-style: dashed;
+  border-color: chocolate;
+}
+.join-button {
+  margin-left: 0;
+  padding: 1.2rem;
+  border-style: dashed;
+  border-color: chocolate;
+  background-color: chocolate;
+}
+.section6 {
+  background-color: rgb(31, 18, 12);
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+  font-size: 30px;
+  text-decoration: none;
+}
+.div16 {
+  text-decoration: none;
+  text-align: center;
+}
+.div18 {
+  margin-bottom: 4rem;
+}
+.list2 {
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.sub1 {
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+}
+.sub2 {
+  margin-bottom: 1.5rem;
+}
+.sub3 {
+  margin-bottom: 1.5rem;
+}
+.sub4 {
+  margin-bottom: 1.5rem;
+}
+.list3 {
+  justify-content: space-evenly;
+  text-align: center;
+}
+.list4 {
+  display: flex;
+  padding-top: 10rem;
+}
+.fb {
+  padding-right: 1.2rem;
+}
+.twitter {
+  padding-right: 1.2rem;
+}
